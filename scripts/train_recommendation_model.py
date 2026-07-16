@@ -25,7 +25,7 @@ def main():
 
     # Turn text columns (platform, sentiment) into numbers the model can use
     encoders = {}
-    for col in X.select_dtypes(include=["object", "str"]).columns:
+    for col in X.select_dtypes(exclude="number").columns:
         le = LabelEncoder()
         X[col] = le.fit_transform(X[col].astype(str))
         encoders[col] = le
