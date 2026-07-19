@@ -1,11 +1,3 @@
-"""
-Task 1: merge customer_social_profiles + customer_transactions into one dataset.
-Social IDs look like "A178", transaction IDs look like "151" - same customers,
-different format, so we strip the "A" and match them as plain numbers.
-Social profiles also have multiple rows per customer (one per platform), so
-we average/aggregate those down to one row per customer before merging.
-"""
-
 import os
 import pandas as pd
 import matplotlib.pyplot as plt

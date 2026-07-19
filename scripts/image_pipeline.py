@@ -1,10 +1,3 @@
-"""
-Task 2: collect face images, augment them, extract features into image_features.csv.
-Looks for real photos in data/images/ named like name_expression.jpg
-(expression = neutral/smile/surprised). If none exist yet, generates
-placeholder cartoon faces instead so the rest of the pipeline can be built now.
-"""
-
 import os
 import cv2
 import numpy as np

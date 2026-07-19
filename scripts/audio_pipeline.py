@@ -1,10 +1,3 @@
-"""
-Task 3: collect voice recordings, augment them, extract features into audio_features.csv.
-Looks for real clips in data/audio/ named like name_phrase.wav
-(phrase = approve/confirm). If none exist yet, generates placeholder tones
-instead so the rest of the pipeline can be built now.
-"""
-
 import os
 import numpy as np
 import pandas as pd

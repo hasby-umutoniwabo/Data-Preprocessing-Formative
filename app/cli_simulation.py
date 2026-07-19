@@ -1,11 +1,3 @@
-"""
-Task 5/6: full end-to-end simulation.
-Face check -> Product recommendation -> Voice check -> Show result (or deny).
-Run with: python3 app/cli_simulation.py
-Type a path to an image/audio file when prompted, or type "unauthorized"
-to simulate an impostor attempt.
-"""
-
 import os
 import sys
 import joblib
@@ -20,8 +12,7 @@ from audio_pipeline import extract_features as extract_audio_features, SR
 FACE_MODEL_PATH = "models/face_model.pkl"
 VOICE_MODEL_PATH = "models/voice_model.pkl"
 RECOMMENDATION_MODEL_PATH = "models/recommendation_model.pkl"
-CONFIDENCE_THRESHOLD = 0.5  # below this, treat the match as "unknown" -> deny
-
+CONFIDENCE_THRESHOLD = 0.5 
 
 def load_models():
     # Load all 3 trained models from disk

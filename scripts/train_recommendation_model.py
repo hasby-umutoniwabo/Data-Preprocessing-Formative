@@ -1,7 +1,3 @@
-"""
-Task 4: predict product_category from a customer's social + transaction features.
-"""
-
 import os
 import pandas as pd
 import joblib

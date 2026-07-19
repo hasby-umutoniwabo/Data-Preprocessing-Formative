@@ -1,7 +1,3 @@
-"""
-Task 4: predict WHICH TEAM MEMBER a face belongs to, from image_features.csv.
-"""
-
 import os
 import pandas as pd
 import joblib

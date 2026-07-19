@@ -1,7 +1,3 @@
-"""
-Task 4: predict WHICH TEAM MEMBER is speaking, from audio_features.csv.
-"""
-
 import os
 import pandas as pd
 import joblib
