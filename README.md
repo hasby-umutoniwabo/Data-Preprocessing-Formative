@@ -113,8 +113,8 @@ social/transaction features to product category - an honest finding, not a bug.
 
 | Person | Owns |
 |---|---|
-| Hasbiyallah | Task 1 (data merge/EDA), Task 4c (recommendation model), final CLI integration, repo management |
-| Favor | Task 2 (image pipeline), Task 4a (facial recognition model) |
+| Favor | Task 1 (data merge/EDA), Task 4c (recommendation model), final CLI integration, repo management |
+| Hasbiyallah | Task 2 (image pipeline), Task 4a (facial recognition model) |
 | Prince | Task 3 (audio pipeline), Task 4b (voiceprint verification model) |
 
 Report and demo video are split by section (each person covers the part they built).
